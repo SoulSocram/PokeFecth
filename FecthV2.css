@@ -1,0 +1,61 @@
+header {
+    text-align: center;
+    margin: 1rem;
+}
+body {
+    padding: 1rem;
+}
+.row {
+    border: solid 3px;
+    width: 45rem;
+    height: 15;
+}
+.col-12, .col-7{
+    border-bottom: solid 3px;
+    text-align: center;
+}
+.col-7 {
+    padding: 0;
+    border-right: solid 3px;
+}
+.col-5, .col-7 {
+    padding: 0;
+}
+button {
+    border: none;
+    background-color: grey;
+    text-decoration-color: black;
+    border-radius: 5px;
+}
+p {
+    margin: 0 auto;
+}
+#types {
+    border-bottom: 3px solid;
+    padding: 1rem;
+    display: flex;
+}
+#type0, #type1 {
+    width: 5rem;
+    margin-left: 1rem;
+}
+#type1 {
+    display: none;
+}
+#skill {
+    padding-top: 1rem;
+    text-align: center;
+}
+#skill0, #skill1 {
+    width: 15rem;
+    margin: 1rem;
+}
+#skill0 {
+    background-color: #b3b9ff;
+}
+#skill1 {
+    background-color: #ffb3b3;
+}
+#skill1_trat {
+    display: none;
+}
